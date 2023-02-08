@@ -33,23 +33,45 @@
     border-radius: 10px;
     border: 1px solid;
     cursor: text;
+    width: 30vh;
+}
+
+#reset {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgba(218, 49, 57, 0.918);
+    background-color: rgba(218, 49, 57, 0.918);
+    font-weight: 600;
+    color: white;
+}
+
+#reset:hover {
+    border: 2px solid rgba(218, 49, 57, 0.918);
+    color: rgba(218, 49, 57, 0.918);
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 #calcular {
     padding: 10px;
     border-radius: 10px;
     border: 2px solid rgba(129, 50, 219, 0.705);
-    color: rgba(129, 50, 219, 0.705);
+    background-color: rgba(129, 50, 219, 0.705);
+    color: #fff;
     font-weight: 600;
     cursor: text;
 }
 
 #calcular:hover {
-    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
     border: 2px solid rgba(129, 50, 219, 0.705);
-    background-color: rgba(129, 50, 219, 0.705);
+    color: rgba(129, 50, 219, 0.705);
+    background-color: #fff;
     font-weight: 600;
-    color: white;
+    cursor: pointer;
 }
 
 #valueContent {
